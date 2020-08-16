@@ -22,119 +22,7 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
-	
-	// Get the modal
-var modal = document.getElementById('myModal');
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementsByClassName('myImg');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-
-var showModal = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-for (var i = 0; i < img.length; i++) {
-    img[i].addEventListener('click', showModal);
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-    modal.style.display = "none";
-}
-	
-  
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
+ 
 	
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -804,16 +692,34 @@ Este semáforo será estatal y está compuesto por cuatro colores, los cuales se
     </div>
   </div>
 </section>
+	  
+	  
+	  
+	  <p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">Para poder realizar un mejor an&aacute;lisis de la manera en c&oacute;mo M&eacute;xico ha afrontado esta crisis por la COVID-19 es de suma utilidad comparar su situaci&oacute;n con la que se ha dado en otro pa&iacute;s con caracter&iacute;sticas culturales, hist&oacute;ricas y econ&oacute;micas similares: Per&uacute;.</p>
 
-<!-- termina linea del tiempo de peru-->
-    
-	  <img class="myImg" src="https://www.w3schools.com/howto/img_fjords.jpg" alt="Trolltunga, Norway" width="300" height="200">
+		<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">El 06 de marzo el presidente Martin Vizcarra confirm&oacute; el primer caso de COVID-19 en el pa&iacute;s sudamericano, indicando que se trataba de un hombre de 25 a&ntilde;os que llegaba al pa&iacute;s despu&eacute;s de haber estado en pa&iacute;ses europeos como Espa&ntilde;a, Francia y Rep&uacute;blica Checa. Desde ese entonces, el gobierno peruano se caracteriz&oacute; por tomar medidas estrictas en un corto tiempo:</p>
 
-<img class="myImg" src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="Mountain, Norway" width="300" height="200">
+		<ul>
+			<li>&nbsp;El 9 de marzo&nbsp;&nbsp;se establece la primera&nbsp;zona exclusiva para atender a pacientes con alta sospecha de ser infectados de coronavirus&nbsp;en hospital de Lima</li>
+			<li>El 11 de marzo se declara Estado de Emergencia Sanitaria. Adem&aacute;s, se suspenden clases escolares</li>
+			<li>El 12 de marzo se proh&iacute;ben reuniones que aglomeren m&aacute;s de 300 personas. Tambi&eacute;n se suspenden clases universitarias.</li>
+			<li>&nbsp;El 13 de marzo se cierran fronteras con Asia y Europa</li>
+		</ul>
 
+		<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">Hasta que el 16 de marzo, con 84 casos confirmados y 0 fallecidos, se establece el Estado de Emergencia Nacional en todo el pa&iacute;s, llamado coloquialmente &ldquo;cuarentena&rdquo;. Esto implic&oacute;:</p>
 
+		<ul>
+			<li>Aislamiento social obligatorio</li>
+			<li>Suspensi&oacute;n de las actividades econ&oacute;micas no fundamentales</li>
+			<li>Cierre de fronteras, tanto internacionales como regionales</li>
+		</ul>
 
-    
+	<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">Esta medida dur&oacute; hasta el 30 de junio en todo el Per&uacute; y se extendi&oacute; de manera focalizada en 7 regiones del pa&iacute;s hasta el 31 de julio.</p>
+
+<p dir="ltr" style="line-height:1.38;margin-top:12pt;margin-bottom:12pt;">Al 31 de julio 428,951 casos, 19,767 muertes confirmadas y 3 ministros distintos es el saldo de esta pandemia en el Per&uacute;, posicion&aacute;ndolo como uno de los pa&iacute;ses m&aacute;s perjudicados por esta pandemia y en el cual se vive una constante incertidumbre.</p>
+	  
+
+<!-- termina linea del tiempo de peru-->   
     
   </div>
 </section>
